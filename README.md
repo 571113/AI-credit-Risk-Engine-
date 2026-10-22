@@ -1,5 +1,3 @@
-# AI-credit-Risk-Engine-
-Machine learning credit risk assessment, probability of default calibration, model explainability and risk analytics.
 # AI Credit Risk Engine
 
 A Python-based credit risk monitoring engine combining default probability estimation and anomaly detection to prioritize credit files for risk review.
