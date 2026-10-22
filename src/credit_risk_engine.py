@@ -44,7 +44,7 @@ def build_risk_portfolio(
 
     # IsolationForest decision_function:
     # smaller values indicate more unusual observations.
-    anomaly_scores = -anomaly_model.decision_function(X)
+    anomaly_scores = -anomaly_model.decision_function(X.to_numpy())
 
     cutoff = np.percentile(anomaly_scores, anomaly_percentile)
     is_anomaly = anomaly_scores >= cutoff
