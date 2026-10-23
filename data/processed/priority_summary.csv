@@ -1,0 +1,5 @@
+priorite,dossiers,probabilite_moyenne,profils_atypiques
+PRIORITE 1 - Risque élevé et anomalie,81,0.6041912305257408,81
+PRIORITE 3 - Risque élevé,1017,0.48512818497869376,0
+Surveillance standard,4683,0.1638642024420041,0
+PRIORITE 2 - Profil atypique,219,0.07987595484307443,219
